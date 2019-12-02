@@ -63,7 +63,7 @@ const PortfolioItemCard: React.FC<Props> = ({ project }) => {
         {project.images && project.images.length >= 1 && (
           <Carousel>
             {project.images.map(image => (
-              <Carousel.Item>
+              <Carousel.Item key={image}>
                 <img className="d-block w-100" src={image} alt="First slide" />
               </Carousel.Item>
             ))}
