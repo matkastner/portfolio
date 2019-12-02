@@ -1,0 +1,59 @@
+.Profile-banner {
+text-align: center;
+color: white;
+
+  .avatar {
+    width: 15rem;
+  }
+
+  .heading {
+    font-size: 2.75rem;
+  }
+
+  .subtitle {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.employers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+
+  a {
+    margin: 2rem;
+
+    img {
+      height: 90px;
+      max-width: 250px;
+    }
+
+    filter: grayscale(30%);
+    
+    transition: filter 200ms;
+
+    &:not(:first-child) {
+      filter: grayscale(90%);
+    }
+
+    &:hover {
+      filter: grayscale(0%);
+
+    }
+  }
+}
+
+.tech {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+   img {
+    margin: 1rem;
+     height: 40px;
+   }
+}

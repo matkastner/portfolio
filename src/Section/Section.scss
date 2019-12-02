@@ -1,0 +1,23 @@
+@import "../index.scss";
+
+.Section {
+    // background: $purple;
+    // text-align: center;
+    // color: white;
+    h2 {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 2.25rem;
+        font-weight: 700;
+    }
+
+
+    // &:nth-child(odd) {background: $white} 
+    // &:nth-child(even) {
+    //     background: $secondary;
+    //     // color: $secondary-text;
+    // } 
+}
+
+// .App:nth-child(even) {background: #000} 
+// .App:nth-child(odd) {background: #FFF} 
