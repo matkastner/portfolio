@@ -14,11 +14,6 @@ const App: React.FC = () => {
       <Header />
       <Section heading="Projects">
         <Portfolio />
-        <div>
-          Watch this space! I'm planning to add to this list. Until then, you
-          can visit my <a href="http://github.com/matkastner">Github profile</a>{" "}
-          for more.
-        </div>
       </Section>
       <Section heading="About">
         <Row>

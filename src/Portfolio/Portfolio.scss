@@ -1,6 +1,14 @@
 .Portfolio {
+  .item-col {
+    padding-bottom: 30px;
+  }
+
   .item {
-    min-height: 200px;
-    margin-bottom: 30px;
+    height: 100%;
+
+    .card-image {
+      max-height: 150px;
+      object-fit: cover;
+    }
   }
 }

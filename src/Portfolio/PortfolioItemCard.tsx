@@ -26,11 +26,11 @@ const PortfolioItemCard: React.FC<Props> = ({ project }) => {
         }
         key={project.name}
         className="item"
-        bg="light"
       >
         {project.images && project.images.length >= 1 && (
           <Card.Img
             variant="top"
+            className="card-image"
             src={project.images[0]}
             onClick={() => setModalShown(true)}
           />
@@ -51,8 +51,8 @@ const PortfolioItemCard: React.FC<Props> = ({ project }) => {
           {project.caseStudy && (
             <Card.Link href={project.caseStudy}>See case study</Card.Link>
           )}
-          {project.link && <Card.Link href={project.link}>Try it!</Card.Link>}
-          {project.repo && <Card.Link href={project.repo}>Repo</Card.Link>}
+          {project.link && <Card.Link href={project.link}>Check it out!</Card.Link>}
+          {project.repo && <Card.Link href={project.repo}>See repo</Card.Link>}
         </Card.Body>
       </Card>
 
