@@ -1,26 +1,25 @@
 @import "../index.scss";
 
 .Header {
-    text-align: center;
-    
-    .profile-image {
-        width: 15rem;
+  text-align: center;
+
+  .profile-image {
+    width: 15rem;
+  }
+
+  .profile-links {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+
+    li {
+      padding: 0;
+      margin: 0;
+
+      a {
+        color: $white;
+      }
     }
-
-    .profile-links {
-        list-style: none;
-        display: flex;
-        padding: 0;
-        margin: 0;
-
-        li {
-            padding: 0;
-            margin: 0;
-
-            a {
-
-                color:$white;
-            }
-        }
-    }
+  }
 }

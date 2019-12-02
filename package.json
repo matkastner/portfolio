@@ -25,6 +25,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "prettier": "prettier --write \"{src,public,functions}/**/*.{ts,tsx,json,js,jsx,html,css,scss,less,md}\"",
+    "prettier-check": "prettier --check \"{src,public,functions}/**/*.{ts,tsx,json,js,jsx,html,css,scss,less,md}\"",
     "deploy": "npm run build && firebase deploy"
   },
   "eslintConfig": {
@@ -43,6 +45,7 @@
     ]
   },
   "devDependencies": {
-    "firebase-tools": "^7.8.1"
+    "firebase-tools": "^7.8.1",
+    "prettier": "^1.19.1"
   }
 }
